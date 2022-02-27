@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore/PizzaStore.csproj": {}
+    "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore.csproj": {}
   },
   "projects": {
-    "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore/PizzaStore.csproj": {
+    "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore/PizzaStore.csproj",
+        "projectUniqueName": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore.csproj",
         "projectName": "PizzaStore",
-        "projectPath": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore/PizzaStore.csproj",
+        "projectPath": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore.csproj",
         "packagesPath": "/home/f3nr1r/.nuget/packages/",
-        "outputPath": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/PizzaStore/obj/",
+        "outputPath": "/home/f3nr1r/Documents/project/DotNetCoreMinimalAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/f3nr1r/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
